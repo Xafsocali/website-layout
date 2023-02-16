@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background: rgb(219, 116, 193);
+}
+/*header/blog title*/
+.header{
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(218, 44, 165);
+}
+.header h1{
+    font-size: 50px;
+}
+/*style the top navigation bar*/
+.topnav{
+    overflow: hidden;
+    background-color:rgb(236, 219, 232);
+}
+/*style the topnav links*/
+.topnav a{
+    float: left;
+    display: block;
+    color: rgb(245, 31, 156);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/*change color on hover*/
+.topnav a:hover{
+    background-color: rgb(253, 13, 221);
+    color: rgb(233, 224, 228);
+}
+/*create two unequal columns thet floats next to each other*/
+/*left column*/
+.leftcolunm{
+    float: left;
+    width: 75%;
+}
+/*right column*/
+.rightcolumn{
+    float: left;
+    width: 25%;
+    background-color: rgb(233, 10, 133);
+    padding-left: 20px;
+}
+/*fake image*/
+.fakeimage{
+    background-color: rgb(230, 14, 176);
+    width: 100%;
+    padding: 20px;
+}
+/*add a card effect for articles*/
+.card{
+    background-color: wheat;
+    padding: 20px;
+    margin: 20px;
+}
+/*clear floats after the columns*/
+.row:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+/*footer*/
+.footer{
+    padding: 20px;
+    text-align: center;
+    background: rgb(133, 2, 56);
+    margin-top: 20px;
+}
+/*responsive layout-when thescreen is less 800px wide,make the two columns
+ stack on top of each other instead of naxt to each other*/
+ @media screen and (max-width:800px){
+    .leftcolunm,.rightcolumn{
+        width: 100%;
+        padding: 0;
+    }
+ }
+ 
+/*responsive layout-when thescreen is less 800px wide,make the two columns
+ stack on top of each other instead of naxt to each other*/
+ @media screen and (max-width:400px){
+    .topnav a{
+        float: none;
+        width: 100%;
+    }
+    }

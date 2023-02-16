@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../imeg.avif);
+    background-size:cover ;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    color: rgb(41, 2, 43);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: rgb(85, 34, 94);
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: hwb(315 40% 25%);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: hwb(296 0% 94%);
+    transition: 4s;
+}
+.btn{
+    background-color: rgb(150, 115, 182);
+    color: #eff7f7;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    text-decoration: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+
+.content{
+    position: absolute;
+    top: 200px;
+    left: 8%;
+    text-decoration: translatet(-25%);
+}
+h1{
+    color: rgb(14, 1, 12);
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color: #be66be;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: #580758;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+ display: inline-block;
+ width: 100%;
+ padding: 14px 13px 14px 15px;
+ border: 2px solid  #580758;
+ outline: none;
+ border-radius: 30px;
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border:none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #140114;
+    color: #af56af;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #0c0009;
+    top: 6px;
+    right: 6px;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #da9dda;
+}
+.about img{
+    height: auto;
+    width: 450px;
+}
+.about-text{
+    width: 560px;
+}
+.main{
+    width: 1140px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: #140114;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: #b336b3;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p {
+    color: #0c000c;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    background-color: #140114;
+    color: antiquewhite;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid  #140114 ;
+    cursor: pointer;
+}
+.service{
+    background:  #d690d6;
+    width: 100%;
+    padding: 90px 5px;
+}
+.title h2{
+    color: #17011a;
+    font-size: 75px;
+    width: 1130px;
+    margin: 4px auto;
+    text-align: center;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:200px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:200px
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #1a021d;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #e677f5;
+}
+h5{
+    color: #eff7f7;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: #af56af;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: #703070;
+    color: antiquewhite;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid  #412b41 ;
+    cursor: pointer;
+}
